@@ -39,6 +39,8 @@ is_target()
 ;     Return 1  
 ;   IfWinActive,ahk_class XEmacs ; XEmacs on Cygwin
 ;     Return 1
+;   IfWinActive,ahk_exe xyzzy.exe ; xyzzy
+;     Return 1
   Return 0
 }
 
